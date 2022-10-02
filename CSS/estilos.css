@@ -1,33 +1,237 @@
-@import url('https://fonts.googleapis.com/css2?family=Inconsolata&family=Ubuntu:wght@300&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
-
-.html{
-    font-size: 70%;
-    box-sizing: border-box;
+a{
+    text-decoration: none;
+    color: white;
 }
-
-*,*::before, *::after{
-    box-sizing: border-box;
-    padding: 0;
+li{
+    list-style-type: none;
 }
-
-body{
-    padding: 0;
-    margin: 0;
-    line-height: 1.6;
-    font-family: 'Ubuntu', sans-serif;
-    background-color: whitesmoke;
+#sec1{
+    display: flex;
+    font-size: larger;
+    flex-direction: row; 
+    justify-content: flex-end; 
 }
-
-.logo{
-    align-content: left;
+.navbar{
+    background-color: #323b43;
+    display: flex; 
+    padding-top: 40px;
+    padding-bottom: 35px;
+    align-items: center;
+    justify-content:space-around;
+    height: 115px;
 }
-
-nav{
+#box{
+    display: flex;
+    height: 56px;
+    flex-direction: row;
+    align-items:center;
+    padding-bottom: 30px;
+}
+#TituloNav{
+    color: whitesmoke;
+}
+#Menu li a{
+color: gray;
+font-size: large;
+}
+#Menu.blnc{
+    color: white;
+}
+#Menu.vrd{
+    color:#2CA445;
+}
+#Menu ul li a:hover{
+    color: white;
+}
+.card-img-overlay{
+    margin-left: 50%;
+    margin-right: 50px;
+    margin-top: 30%;
+    text-align: right;
+    justify-content:center;
+    height: 785px;
+}
+.card bg-dark text-white{
+    height: 785px;
+}
+#p1{
+padding-bottom: 25px;
+}
+#sec2{
+    display: flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content: center;
+    background-color: white;
+    text-align: center; 
+}
+.row {
+    display: flex;
+    justify-content: space-around;
+    margin-right: 190px;
+}
+.card-body{
+    text-align: left;
+}
+#sec3{
     display: flex;
     align-items: center;
-    justify-content: space-around;
-    min-height: 8vh;
-    background-color:  #343c44 ;
-
+    justify-content: center;
+    background-color: #323b43;
+}
+#p2{
+    width: 500px;
+    float: right;
+    margin-left: 50px;
+    padding-top: 30px;
+    text-align: justify;
+    align-self:flex-start;
+    color: white;
+}
+.container3{
+    display: flex;
+    align-items: flex-start;
+    flex-direction:row;
+    height: auto;
+}
+#fondo{
+    filter: opacity(0.5);
+}
+h2, h5{
+    color: white;
+}
+#sec4{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    margin-top: auto;
+    padding-top: 20px;
+    text-align: center;
+    justify-content: center;
+}
+.row {
+    margin-left: 150px;
+    margin-bottom: 15px;
+}
+#Parrafo{
+   font-size: medium;
+   padding-top: 18px;
+}
+.btnAmarillo{
+    border-style:hidden;
+    border-radius: 5px;
+    font-size: medium;
+    background-color: #F5C106;
+}
+.btnChico{
+    border-style:hidden;
+    border-radius: 5px;
+    font-size: large;
+    color: white;
+    background-color: #14A5BA;
+}
+.btnRojo{
+    border-style:hidden;
+    border-radius: 5px;
+    font-size: large;
+    color: white;
+    background-color: #DD3644;
+}
+.btnGriss{
+    border-style:hidden;
+    border-radius: 5px;
+    font-size: large;
+    color: white;
+    background-color: #6C747C;
+}
+.btnGris{
+    border-style:hidden;
+    border-radius: 5px;
+    font-size: xx-small;
+    color: white;
+    background-color:grey;
+}
+.btn-light{
+    border: 1px solid white;
+    background-color:rgba(205, 200, 200, 0.016);
+    color:white;
+    font-size: large;
+    padding: 10px;
+    border-radius: 5px;
+}
+.btn-success{
+    background-color: #2CA445;
+    border-radius: 5px;
+    border-color: #2CA445;
+    color:white;
+    font-size: large;
+    padding: 10px;
+    margin-right: 12px;
+}
+.btn-success:hover{
+    background-color: white;
+    color: #2CA445;
+}
+#Coment{
+    margin-top: 10px;
+    width: 40%; 
+    height: 120px;
+    padding: 12px 20px;
+    width: 915px;
+}
+input{
+    width: 28%;
+}
+#PF{
+font-size: xx-small;
+padding-right: 490px;
+}
+#btnFinal{
+    background-color:#2CA445;
+    border-radius: 5px;
+    padding: 10px;
+    border-color: #2CA445;
+    color:white;
+    font-size: large;
+    width:915px ;
+    font-size: x-large;
+    align-self: center;
+}
+#Menu li {
+    display: inline-flex;
+    flex-direction: row;
+    padding-right: 20px;
+    list-style-type: none;
+}
+#Menu ul li:last-child{
+    color: #2CA445;
+}
+#Menu:first-child{
+    color: white;
+}
+#TUL{
+    color: black;
+}
+footer {
+    display: flex;
+    flex-direction:row;
+    padding-top: 10px;
+    margin-top: 30px;
+    background-color: #1C4359;
+}
+#foo{
+    padding-left: 200px;
+}
+#foo li{
+    display: inline-flex;
+    align-items: stretch;
+    list-style-type: none;
+}
+#foo li a{
+    list-style-type: none;
+    padding: 40px;
+    font-size: medium;
+}
+#foo li a:hover{
+    color:#2CA445;
 }
