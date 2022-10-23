@@ -34,14 +34,14 @@ li{
 color: gray;
 font-size: large;
 }
-#Menu.blnc{
+#Menu li a.blnc{
     color: white;
 }
-#Menu.vrd{
+#Menu li a.vrd{
     color:#2CA445;
 }
-#Menu ul li a:hover{
-    color: white;
+#Menu li a:hover{
+    color: whitesmoke;
 }
 .card-img-overlay{
     margin-left: 50%;
@@ -234,4 +234,70 @@ footer {
 }
 #foo li a:hover{
     color:#2CA445;
+}
+.info-grid{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-row: 200px;
+    grid-column-gap: 2px;
+    padding-block: 1rem;
+    margin-inline: auto; 
+    justify-items: center;
+}
+.flex .col1{
+    border-color: #1C4359;
+    border-style: solid;
+    width: 200px;
+    height: 185px;
+}
+.flex .col1 p{
+    text-align: center;
+    font-size: 15px;
+    line-height: 0.8;
+    margin-top: 1px;
+}
+.flex .col1 p.n{
+    font-weight: bolder;
+}
+.flex .col2{
+    border-color: #14A5BA;
+    border-style: solid;
+    width: 200px;
+    height: 185px;
+}
+.flex .col2 p{
+    text-align: center;
+    font-size: 15px;
+    line-height: 0.8;
+    margin-top: 1px;
+}
+.flex .col2 p.n{
+    font-weight: bolder;
+}
+.flex .col3{
+    border-color: #F5C106;
+    border-style: solid;
+    width: 200px;
+    height: 185px;
+}
+.flex .col3 p{
+    text-align: center;
+    font-size: 15px;
+    line-height: 0.8;
+    margin-top: 1px;
+}
+.flex .col3 p.n{
+    font-weight: bolder;
+}
+.txt-bajo{
+    text-align: center;
+    word-spacing: 5px;
+    line-height: 5px;
+}
+.txt-bajo .centro{
+    font-size: 18px;
+}
+.txt-bajo .bajo-centro{
+    font-size: 36px;
+    font-weight: bolder;
 }
